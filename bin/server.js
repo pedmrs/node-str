@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 // require é para importar
 // sem o caminho, ele vai buscar na node_modeles
