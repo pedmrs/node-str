@@ -10,6 +10,9 @@ const router = express.Router();
 // Conecta com o banco
 mongoose.connect('mongodb+srv://root:t5887rfz@cluster-node.znogc.mongodb.net/nodestr?retryWrites=true&w=majority');
 
+// Carrega os models
+const Product = require('./models/product');
+
 // Carrega as Rotas
 const indexRoutes = require('./routes/index-routes');
 const productRoutes = require('./routes/product-routes');
